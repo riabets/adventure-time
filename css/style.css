@@ -5,7 +5,7 @@ body {
 }
 .one {
     display:block; /* margin:0 auto; */
-    background:#f5de6b;
+    background:#fff8d4;
     height:190px;
     width:200px;
     margin:100px 100px 100px 100px;
@@ -16,7 +16,7 @@ body {
     border-bottom:40px solid white;
     transform:skew(1deg);
     -webkit-filter:saturate(100%);
-    box-shadow:3px 0 8px 0 #000000;
+    box-shadow:3px 0 8px 0 #000000, inset 3px 0 8px 0 #000000;
 }
 .abody {
     width:200px;
@@ -24,7 +24,7 @@ body {
     background:#fff;
     border:1px solid #fff;
     border-radius:50%;
-    box-shadow:3px 0 8px 0 #000000;
+    box-shadow:3px 0 8px 0 #000000, inset 3px 0 8px 0 #000000;
     margin:-116px 27px 0px 142px;
 }
 .round {
@@ -87,4 +87,11 @@ h1, p {
     text-align:center;
     color:#fff;
     text-shadow:1px 1px 1px 1px #000;
+}
+.arm1 {
+    width: 130px;
+    height: 25px;
+    background-color: #fff;
+    margin: -122px 0 0 15px;
+    box-shadow: 3px 0 8px 0 #484848, inset 3px 0 8px 0 #673AB7;
 }
