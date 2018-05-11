@@ -1,99 +1,90 @@
 body {
-    background: #53a6ff;
-    width: 100%;
-    padding: 50px;
+    background:#53a6ff;
+    width:100%;
+    padding:50px;
 }
-
 .one {
-    display: block; /* margin:0 auto; */
-    background: #f5de6b;
-    height: 190px;
-    width: 200px;
-    margin: 100px 100px 100px 100px;
-    border-radius: 50%;
-    border-top: 40px solid white;
-    border-left: 40px solid white;
-    border-right: 40px solid white;
-    border-bottom: 40px solid white;
-    transform: skew(1deg);
-    -webkit-filter: saturate(100%);
-    box-shadow: 3px 0 8px 0 #000000;
+    display:block; /* margin:0 auto; */
+    background:#f5de6b;
+    height:190px;
+    width:200px;
+    margin:100px 100px 100px 100px;
+    border-radius:50%;
+    border-top:40px solid white;
+    border-left:40px solid white;
+    border-right:40px solid white;
+    border-bottom:40px solid white;
+    transform:skew(1deg);
+    -webkit-filter:saturate(100%);
+    box-shadow:3px 0 8px 0 #000000;
 }
-
 .abody {
-    width: 200px;
-    height: 200px;
-    background: #fff;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    box-shadow: 3px 0 8px 0 #000000;
-    margin: -116px 27px 0px 142px;
+    width:200px;
+    height:200px;
+    background:#fff;
+    border:1px solid #fff;
+    border-radius:50%;
+    box-shadow:3px 0 8px 0 #000000;
+    margin:-116px 27px 0px 142px;
 }
-
 .round {
-    width: 50px;
-    height: 50px;
-    background: white;
-    border-radius: 25px;
-    float: left;
-    margin: 35px 25px 0 25px;
-    box-shadow: 1px 1px 1px 1px grey;
+    width:50px;
+    height:50px;
+    background:white;
+    border-radius:25px;
+    float:left;
+    margin:35px 25px 0 25px;
+    box-shadow:1px 1px 1px 1px grey;
 }
-
 .eye {
-    width: 15px;
-    height: 15px;
-    border-radius: 9px;
-    background: white;
+    width:15px;
+    height:15px;
+    border-radius:9px;
+    background:white;
 }
-
 .seceye {
-    width: 30px;
-    height: 30px;
-    background: #151515;
-    border-radius: 15px;
-    margin-top: 1px;
-    margin-left: 15px;
-    -webkit-filter: blur(0);
+    width:30px;
+    height:30px;
+    background:#151515;
+    border-radius:15px;
+    margin-top:1px;
+    margin-left:15px;
+    -webkit-filter:blur(0);
 }
-
 .rot {
-    width: 80px;
-    height: 36px;
-    border-radius: 0 0 30px 30px;
-    background: #000000;
-    margin-top: 110px;
-    margin-left: 61px;
-    border-top: 0px solid #000000;
-    border-top-left-radius: 37px;
-    border-radius: 1px 0px 43px 41px;
-    overflow: hidden;
+    width:80px;
+    height:36px;
+    border-radius:0 0 30px 30px;
+    background:#000000;
+    margin-top:110px;
+    margin-left:61px;
+    border-top:0px solid #000000;
+    border-top-left-radius:37px;
+    border-radius:1px 0px 43px 41px;
+    overflow:hidden;
 }
-
 .tooth1 {
-    width: 26px;
-    height: 15px;
-    background: white;
-    float: left;
-    margin: 0;
-    border-radius: 0 0 2px 4px;
+    width:26px;
+    height:15px;
+    background:white;
+    float:left;
+    margin:0;
+    border-radius:0 0 2px 4px;
 }
-
 .ear {
-    width: 50px;
-    height: 50px;
-    background: #ffffff;
-    float: left;
-    margin-top: -58px;
-    margin-left: 28px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    border-radius: 10px 10px 0 0;
+    width:50px;
+    height:50px;
+    background:#ffffff;
+    float:left;
+    margin-top:-58px;
+    margin-left:28px;
+    margin-right:10px;
+    margin-bottom:10px;
+    border-radius:10px 10px 0 0;
 }
-
 h1, p {
-    font-family: sans-serif;
-    text-align: center;
-    color: #fff;
-    text-shadow: 1px 1px 1px 1px #000;
+    font-family:sans-serif;
+    text-align:center;
+    color:#fff;
+    text-shadow:1px 1px 1px 1px #000;
 }
