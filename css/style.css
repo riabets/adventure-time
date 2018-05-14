@@ -27,21 +27,6 @@ body {
     border-radius: 50%;
     border: 1px solid #000;
 }
-.abody {
-    width: 320px;
-    height: 320px;
-    background: #26CEFF;
-    border: 1px solid #000;
-    border-radius: 2%;
-    margin: -110px 0 0 101px;
-}
-.round {
-    width:50px;
-    height:50px;
-    border-radius:25px;
-    float:left;
-    margin: 60px 40px 0 30px;
-}
 .seceye {
     width: 15px;
     height: 15px;
@@ -99,6 +84,21 @@ body {
     border: 1px solid #000;
     z-index: 1;
     border-bottom:1px solid #fff;
+}
+.round {
+    width:50px;
+    height:50px;
+    border-radius:25px;
+    float:left;
+    margin: 60px 40px 0 30px;
+}
+.abody {
+    width: 320px;
+    height: 320px;
+    background: #26CEFF;
+    border: 1px solid #000;
+    border-radius: 2%;
+    margin: -110px 0 0 101px;
 }
 h1, p {
     font-family:sans-serif;
