@@ -1,50 +1,50 @@
 body {
-    background:#53a6ff;
-    width:100%;
-    padding:50px;
+    background: #eee;
+    width: 100%;
+    padding: 50px;
+    height: 1000px;
+    max-width: 100px;
+    margin: 0 auto;
 }
-.one {
-    display:block; /* margin:0 auto; */
-    background:#fff8d4;
+.head {
+    display:block;
+    background:#fff;
     height:190px;
-    width:200px;
+    width:240px;
     margin:100px 100px 100px 100px;
-    border-radius:50%;
-    border-top:40px solid white;
-    border-left:40px solid white;
-    border-right:40px solid white;
-    border-bottom:40px solid white;
+    border-radius:6%;
+    border:40px solid white;
     transform:skew(1deg);
     -webkit-filter:saturate(100%);
-    box-shadow:3px 0 8px 0 #000000, inset 3px 0 8px 0 #000000;
+    box-shadow: 1px 1px 0 2px #000;
+}
+.head::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    background-color: #fcdbe6;
+    border-radius: 50%;
+    border: 1px solid #000;
 }
 .abody {
-    width:200px;
-    height:200px;
-    background:#fff;
-    border:1px solid #fff;
-    border-radius:50%;
-    box-shadow:3px 0 8px 0 #000000, inset 3px 0 8px 0 #000000;
-    margin:-116px 27px 0px 142px;
+    width: 320px;
+    height: 320px;
+    background: #26CEFF;
+    border: 1px solid #000;
+    border-radius: 2%;
+    margin: -110px 0 0 101px;
 }
 .round {
     width:50px;
     height:50px;
-    background:white;
     border-radius:25px;
     float:left;
-    margin:35px 25px 0 25px;
-    box-shadow:1px 1px 1px 1px grey;
-}
-.eye {
-    width:15px;
-    height:15px;
-    border-radius:9px;
-    background:white;
+    margin: 60px 40px 0 30px;
 }
 .seceye {
-    width:30px;
-    height:30px;
+    width: 15px;
+    height: 15px;
     background:#151515;
     border-radius:15px;
     margin-top:1px;
@@ -52,35 +52,53 @@ body {
     -webkit-filter:blur(0);
 }
 .rot {
-    width:80px;
-    height:36px;
-    border-radius:0 0 30px 30px;
-    background:#000000;
-    margin-top:110px;
-    margin-left:61px;
-    border-top:0px solid #000000;
-    border-top-left-radius:37px;
-    border-radius:1px 0px 43px 41px;
-    overflow:hidden;
+    width: 80px;
+    height: 25px;
+    background: #000000;
+    margin-top: 90px;
+    margin-left: 70px;
+    border-top: 1px solid #000000;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
 }
-.tooth1 {
-    width:26px;
-    height:15px;
-    background:white;
-    float:left;
-    margin:0;
-    border-radius:0 0 2px 4px;
+.mouth {
+    width: 78px;
+    height: 21px;
+    background: #FCDBE6;
+    margin-top: -3px;
+    margin-left: 1px;
+    border-top: 1px solid #FCDBE6;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    z-index: 22;
 }
-.ear {
-    width:50px;
-    height:50px;
-    background:#ffffff;
-    float:left;
-    margin-top:-58px;
-    margin-left:28px;
-    margin-right:10px;
-    margin-bottom:10px;
-    border-radius:10px 10px 0 0;
+.ear1 {
+    width: 50px;
+    height: 70px;
+    background: #ffffff;
+    float: left;
+    margin: -77px -1px 10px -1px;
+    position: absolute;
+    border-radius: 36px 36px 45px 0;
+    left: -40px;
+    border: 1px solid #000;
+    z-index: 1;
+    border-bottom:1px solid #fff;
+}
+.ear2 {
+    width: 50px;
+    height: 70px;
+    background: #ffffff;
+    float: left;
+    margin: -77px -1px 10px 10px;
+    border-radius: 36px 36px 0 45px;
+    right: -40px;
+    position: absolute;
+    border: 1px solid #000;
+    z-index: 1;
+    border-bottom:1px solid #fff;
 }
 h1, p {
     font-family:sans-serif;
