@@ -3,13 +3,15 @@ body {
     width:100%;
     padding:50px;
     height:1000px;
-    max-width:100px;
+    max-width:1000px;
     margin:0 auto;
     perspective:100px;
     perspective-origin:200px;
 }
 .finn {
-    transform:rotate3d(0, -3, 1, -4deg);
+    transform:rotate3d(0, -3, 1, -2deg);
+    margin: 0 auto;
+    max-width: 400px;
 }
 .head {
     display:block;
